@@ -1,0 +1,11 @@
+:root{font-family:Inter,system-ui,sans-serif;color:#ecf0ff;background:#0b1220}*{box-sizing:border-box}
+body,html,#root{margin:0;min-height:100%}
+.wrap{max-width:1100px;margin:0 auto;padding:16px;display:grid;gap:14px}
+.filters{display:flex;gap:10px;flex-wrap:wrap}.filters label{display:grid;gap:4px}
+select{padding:8px;border-radius:8px;background:#101a2e;color:#e8ecff;border:1px solid #30436c}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.card{background:#111c33;border:1px solid #2f4470;border-radius:12px;padding:12px;cursor:pointer}
+.card:hover{border-color:#5b7ac0}.price{font-weight:700}.tone{color:#b7c6ef}
+.details{background:#111c33;border:1px solid #2f4470;border-radius:12px;padding:14px}
+a{color:#9bc1ff}
+@media (max-width: 700px){.wrap{padding:10px}}
