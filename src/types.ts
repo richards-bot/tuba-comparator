@@ -10,6 +10,15 @@ export interface Tuba {
   level: 'Student' | 'Intermediate' | 'Professional';
   tone: 'Dark' | 'Warm' | 'Balanced' | 'Bright';
   priceGbp: number;
+  imageUrl: string;
+  imageAttribution: string;
   whereToBuy: { name: string; url: string }[];
-  notes: string;
+  shortSummary: string;
+  detailedDescription: string;
+  review: {
+    rating: number;
+    verdict: string;
+    pros: string[];
+    cons: string[];
+  };
 }
